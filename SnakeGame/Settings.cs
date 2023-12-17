@@ -22,8 +22,8 @@ namespace SnakeGame
             Width = 16;
             Height = 16;
             directions = Direction.right;
-            maxHeight = playCanvas.Height - 1;
-            maxWidth = playCanvas.Width - 1;
+            maxHeight = playCanvas.Height - 10;
+            maxWidth = playCanvas.Width - 10;
         }
     }
 
